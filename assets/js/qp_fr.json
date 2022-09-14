@@ -1,0 +1,253 @@
+[
+  {
+    "id":"1",
+    "type":"video",
+    "modal":true,
+    "title":"FR Patria x Nespresso",
+    "text":"FR Welcome to Patria<br> with Janet Hoediono",
+    "video_id":"JwNsptc8ZMo",
+    "thumb":{
+      "src":"video-thumb-1.jpg",
+      "placeholder":"280x280.png",
+      "alt":"thumb video"
+    }
+  },
+  {
+    "id":"2",
+    "type":"photo",
+    "modal":true,
+    "thumb":{
+      "src":"photo-thumb-1.jpg",
+      "placeholder":"280x400.png",
+      "alt":"photo"
+    },
+    "image":{
+      "src":"460x660.png",
+      "placeholder":"https://via.placeholder.com/880x1257/e8177e/fff/?text=460x660",
+      "alt":"photo"
+    }
+  },
+  {
+    "id":"3",
+    "type":"article",
+    "modal":true,
+    "headline":"FR Pur & Simple",
+    "text":"FR La passion selon Patria",
+    "cta":"Read More",
+    "cta_link":"https://frontendfront.com/",
+    "thumb":{
+      "src":"article-thumb-1.jpg",
+      "placeholder":"280x280.png",
+      "alt":"thumb article"
+    },
+    "hero":{
+      "src":"pursimple-hero.jpg",
+      "placeholder":"880x415.png",
+      "alt":"hero article"
+    },
+    "section":[
+      {
+        "paragraph":[
+          "Avec ses allures de Nouvelle-France, c’est tout à fait naturel de retrouver, en plein cœur du Vieux Québec, une boulangerie comme Paillard. Cette boulangerie phare de la capitale nationale met de l’avant le savoir-faire à la française dans ses quatre succursales.",
+          "Pour Christelle Philippon, chef-boulangère et propriétaire de Paillard depuis un ans, ce fut le coup de cœur immédiat. «J’ai 20 ans d’expérience dans le métier. Par hasard, je suis venue en vacances et j’ai eu un coup de cœur pour la rue Saint-Jean, et encore un plus grand coup de cœur quand je suis rentrée chez Paillard. »"
+        ],
+        "image":{
+          "src":"pursimple-1.jpg",
+          "placeholder":"350x240.png",
+          "alt":"image article"
+        }
+      },
+      {
+        "paragraph":[
+          "Son arrivée marque le début du partenariat entre Nespresso et Paillard. « Même si la machine professionnelle m’avait beaucoup impressionnée, j’étais d’abord consommatrice. J’avais ma machine chez moi. Quand j’ai fait le projet Paillard, c’était une évidence; il fallait absolument que Nespresso ait sa place dans ce projet. C’est un mariage parfait; chez Paillard nous avons une énorme place pour le café, et surtout pour la qualité. »",
+          "« Même si la machine Nespresso m’aide à sauver du temps, je ne l’ai pas choisi pour ça. Je l’ai choisi pour la qualité et la régularité. Là où je fais des contrôles de qualité régulièrement en succursale pour m’assurer de la qualité du pain et des viennoiseries, je peux me fier à Nespresso pour assurer ce même niveau de régularité dans mes lattés. Et ça marche. On a converti beaucoup de clients qui étaient adeptes du café filtre et qui ont basculé sur l’américano car il a vraiment une meilleure saveur, et surtout sur le latté. On a eu des ventes records sur le latté. On ne va pas tourner autour du pot, ils ont une très bonne qualité de café. »",
+          "Elle remarque que lorsqu’on mange bien, ce dont on se rappelle c’est la fin du repas. « Et bien souvent, c’est le café. Si on a un mauvais souvenir du café, ça gâche l’expérience. »",
+          "Chez Paillard, l’incontournable accord, c’est un croissant frais avec un latté. Et même la propriétaire n’y échappe pas. « Pour moi un latté caramel accompagné d’un croissant, c’est une vraie gâterie. »"
+        ],
+        "image":{
+          "src":"pursimple-2.jpg",
+          "placeholder":"390x520.png",
+          "alt":"image article"
+        }
+      }
+    ]
+  },
+  {
+    "id":"4",
+    "type":"article",
+    "modal":true,
+    "headline":"FR Vancouver",
+    "text":"FR Passion According Vancouver",
+    "cta":"Read More",
+    "cta_link":"https://frontendfront.com/",
+    "thumb":{
+      "src":"article-thumb-2.jpg",
+      "placeholder":"280x280.png",
+      "alt":"thumb article"
+    },
+    "hero":{
+      "src":"",
+      "placeholder":"880x415.png",
+      "alt":"hero article"
+    },
+    "section":[
+      {
+        "paragraph":[
+          "Avec ses allures de Nouvelle-France, c’est tout à fait naturel de retrouver, en plein cœur du Vieux Québec, une boulangerie comme Paillard. Cette boulangerie phare de la capitale nationale met de l’avant le savoir-faire à la française dans ses quatre succursales.",
+          "Pour Christelle Philippon, chef-boulangère et propriétaire de Paillard depuis un ans, ce fut le coup de cœur immédiat. «J’ai 20 ans d’expérience dans le métier. Par hasard, je suis venue en vacances et j’ai eu un coup de cœur pour la rue Saint-Jean, et encore un plus grand coup de cœur quand je suis rentrée chez Paillard. »"
+        ],
+        "image":{
+          "src":"",
+          "placeholder":"350x240.png",
+          "alt":"image article"
+        }
+      },
+      {
+        "paragraph":[
+          "Son arrivée marque le début du partenariat entre Nespresso et Paillard. « Même si la machine professionnelle m’avait beaucoup impressionnée, j’étais d’abord consommatrice. J’avais ma machine chez moi. Quand j’ai fait le projet Paillard, c’était une évidence; il fallait absolument que Nespresso ait sa place dans ce projet. C’est un mariage parfait; chez Paillard nous avons une énorme place pour le café, et surtout pour la qualité. »",
+          "« Même si la machine Nespresso m’aide à sauver du temps, je ne l’ai pas choisi pour ça. Je l’ai choisi pour la qualité et la régularité. Là où je fais des contrôles de qualité régulièrement en succursale pour m’assurer de la qualité du pain et des viennoiseries, je peux me fier à Nespresso pour assurer ce même niveau de régularité dans mes lattés. Et ça marche. On a converti beaucoup de clients qui étaient adeptes du café filtre et qui ont basculé sur l’américano car il a vraiment une meilleure saveur, et surtout sur le latté. On a eu des ventes records sur le latté. On ne va pas tourner autour du pot, ils ont une très bonne qualité de café. »",
+          "Elle remarque que lorsqu’on mange bien, ce dont on se rappelle c’est la fin du repas. « Et bien souvent, c’est le café. Si on a un mauvais souvenir du café, ça gâche l’expérience. »",
+          "Chez Paillard, l’incontournable accord, c’est un croissant frais avec un latté. Et même la propriétaire n’y échappe pas. « Pour moi un latté caramel accompagné d’un croissant, c’est une vraie gâterie. »"
+        ],
+        "image":{
+          "src":"",
+          "placeholder":"390x520.png",
+          "alt":"image article"
+        }
+      }
+    ]
+  },
+  {
+    "id":"5",
+    "type":"article",
+    "modal":true,
+    "headline":"FR Paillard",
+    "text":"FR Passion According Paillard",
+    "cta":"Read More",
+    "cta_link":"https://frontendfront.com/",
+    "thumb":{
+      "src":"article-thumb-3.jpg",
+      "placeholder":"280x280.png",
+      "alt":"thumb article"
+    },
+    "hero":{
+      "src":"paillard-hero.jpg",
+      "placeholder":"880x415.png",
+      "alt":"hero article"
+    },
+    "section":[
+      {
+        "paragraph":[
+          "Avec ses allures de Nouvelle-France, c’est tout à fait naturel de retrouver, en plein cœur du Vieux Québec, une boulangerie comme Paillard. Cette boulangerie phare de la capitale nationale met de l’avant le savoir-faire à la française dans ses quatre succursales.",
+          "Pour Christelle Philippon, chef-boulangère et propriétaire de Paillard depuis un ans, ce fut le coup de cœur immédiat. «J’ai 20 ans d’expérience dans le métier. Par hasard, je suis venue en vacances et j’ai eu un coup de cœur pour la rue Saint-Jean, et encore un plus grand coup de cœur quand je suis rentrée chez Paillard. »"
+        ],
+        "image":{
+          "src":"paillard-1.jpg",
+          "placeholder":"350x240.png",
+          "alt":"image article"
+        }
+      },
+      {
+        "paragraph":[
+          "Son arrivée marque le début du partenariat entre Nespresso et Paillard. « Même si la machine professionnelle m’avait beaucoup impressionnée, j’étais d’abord consommatrice. J’avais ma machine chez moi. Quand j’ai fait le projet Paillard, c’était une évidence; il fallait absolument que Nespresso ait sa place dans ce projet. C’est un mariage parfait; chez Paillard nous avons une énorme place pour le café, et surtout pour la qualité. »",
+          "« Même si la machine Nespresso m’aide à sauver du temps, je ne l’ai pas choisi pour ça. Je l’ai choisi pour la qualité et la régularité. Là où je fais des contrôles de qualité régulièrement en succursale pour m’assurer de la qualité du pain et des viennoiseries, je peux me fier à Nespresso pour assurer ce même niveau de régularité dans mes lattés. Et ça marche. On a converti beaucoup de clients qui étaient adeptes du café filtre et qui ont basculé sur l’américano car il a vraiment une meilleure saveur, et surtout sur le latté. On a eu des ventes records sur le latté. On ne va pas tourner autour du pot, ils ont une très bonne qualité de café. »",
+          "Elle remarque que lorsqu’on mange bien, ce dont on se rappelle c’est la fin du repas. « Et bien souvent, c’est le café. Si on a un mauvais souvenir du café, ça gâche l’expérience. »",
+          "Chez Paillard, l’incontournable accord, c’est un croissant frais avec un latté. Et même la propriétaire n’y échappe pas. « Pour moi un latté caramel accompagné d’un croissant, c’est une vraie gâterie. »"
+        ],
+        "image":{
+          "src":"paillard-2.jpg",
+          "placeholder":"390x520.png",
+          "alt":"image article"
+        }
+      }
+    ]
+  },
+  {
+    "id":"6",
+    "type":"photo",
+    "modal":true,
+    "thumb":{
+      "src":"photo-thumb-2.jpg",
+      "placeholder":"280x400.png",
+      "alt":"photo"
+    },
+    "image":{
+      "src":"460x660.png",
+      "placeholder":"https://via.placeholder.com/880x1257/e8177e/fff/?text=460x660",
+      "alt":"photo"
+    }
+  },
+  {
+    "id":"7",
+    "type":"article",
+    "modal":true,
+    "headline":"FR Patria",
+    "text":"FR Passion According Patria",
+    "cta":"Read More",
+    "cta_link":"https://frontendfront.com/",
+    "thumb":{
+      "src":"article-thumb-4.jpg",
+      "placeholder":"280x280.png",
+      "alt":"thumb article"
+    },
+    "hero":{
+      "src":"patria-hero.jpg",
+      "placeholder":"880x415.png",
+      "alt":"hero article"
+    },
+    "section":[
+      {
+        "paragraph":[
+          "Avec ses allures de Nouvelle-France, c’est tout à fait naturel de retrouver, en plein cœur du Vieux Québec, une boulangerie comme Paillard. Cette boulangerie phare de la capitale nationale met de l’avant le savoir-faire à la française dans ses quatre succursales.",
+          "Pour Christelle Philippon, chef-boulangère et propriétaire de Paillard depuis un ans, ce fut le coup de cœur immédiat. «J’ai 20 ans d’expérience dans le métier. Par hasard, je suis venue en vacances et j’ai eu un coup de cœur pour la rue Saint-Jean, et encore un plus grand coup de cœur quand je suis rentrée chez Paillard. »"
+        ],
+        "image":{
+          "src":"patria-1.jpg",
+          "placeholder":"350x240.png",
+          "alt":"image article"
+        }
+      },
+      {
+        "paragraph":[
+          "Son arrivée marque le début du partenariat entre Nespresso et Paillard. « Même si la machine professionnelle m’avait beaucoup impressionnée, j’étais d’abord consommatrice. J’avais ma machine chez moi. Quand j’ai fait le projet Paillard, c’était une évidence; il fallait absolument que Nespresso ait sa place dans ce projet. C’est un mariage parfait; chez Paillard nous avons une énorme place pour le café, et surtout pour la qualité. »",
+          "« Même si la machine Nespresso m’aide à sauver du temps, je ne l’ai pas choisi pour ça. Je l’ai choisi pour la qualité et la régularité. Là où je fais des contrôles de qualité régulièrement en succursale pour m’assurer de la qualité du pain et des viennoiseries, je peux me fier à Nespresso pour assurer ce même niveau de régularité dans mes lattés. Et ça marche. On a converti beaucoup de clients qui étaient adeptes du café filtre et qui ont basculé sur l’américano car il a vraiment une meilleure saveur, et surtout sur le latté. On a eu des ventes records sur le latté. On ne va pas tourner autour du pot, ils ont une très bonne qualité de café. »",
+          "Elle remarque que lorsqu’on mange bien, ce dont on se rappelle c’est la fin du repas. « Et bien souvent, c’est le café. Si on a un mauvais souvenir du café, ça gâche l’expérience. »",
+          "Chez Paillard, l’incontournable accord, c’est un croissant frais avec un latté. Et même la propriétaire n’y échappe pas. « Pour moi un latté caramel accompagné d’un croissant, c’est une vraie gâterie. »"
+        ],
+        "image":{
+          "src":"patria-2.jpg",
+          "placeholder":"390x520.png",
+          "alt":"image article"
+        }
+      }
+    ]
+  },
+  {
+    "id":"8",
+    "type":"photo",
+    "modal":true,
+    "thumb":{
+      "src":"photo-thumb-3.jpg",
+      "placeholder":"280x400.png",
+      "alt":"photo"
+    },
+    "image":{
+      "src":"460x660.png",
+      "placeholder":"https://via.placeholder.com/880x1257/e8177e/fff/?text=460x660",
+      "alt":"photo"
+    }
+  },
+  {
+    "id":"9",
+    "type":"video",
+    "modal":true,
+    "title":"FR Pur & Simple x Nespresso",
+    "text":"FR Welcome Pur & Simple<br> with Ritou",
+    "video_id":"qE_wvjzQHf0",
+    "thumb":{
+      "src":"video-thumb-2.jpg",
+      "placeholder":"280x280.png",
+      "alt":"thumb video"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "verbose": false,
+  "rules": [
+    {
+      "match": "index.html",
+      "folder": "."
+    },
+    {
+      "match": "*.html",
+      "folder": "app"
+    },
+    {
+      "match": "*.css",
+      "folder": "app/assets/css"
+    },
+    {
+      "match": "*.js",
+      "folder": "app/assets/js"
+    },
+    {
+      "match": "*.{jpg,jpeg,png,gif,svg}",
+      "folder": "app/assets/img"
+    },
+    {
+      "match": "*.{eot,tff,woff,woff2}",
+      "folder": "app/assets/fonts"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+// ----------------------------------------------------------------------------
+// Variables
+// ----------------------------------------------------------------------------
+
+[data-view="quality-partners"] {
+  --primary-color: rgb(47, 47, 47); // #2f2f2f
+  --secondary-color: rgb(209, 164, 81); // #d1a451
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --grey: rgb(112, 112, 112);
+  --lightgrey: rgb(229, 229, 229);
+  --beige: rgb(243, 238, 230);
+  --burntorange: rgb(194, 141, 76);
+  --font-primary: 'Nespresso Lucas', Helvetica, Arial, sans-serif; // available font-weights (300, 400, 500, 600, 700, 800)
+}
+
+
+// Breakpoints
+$spacer: 1rem; // 16px
+$sm: 576px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1440px;
+
+$breakpoints: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+);
+
+
+// Font Family
+// ------------------------------------
+
+$nespresso: 'Nespresso Lucas', Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, Helvetica, Arial, sans-serif; // available font-weights (300, 400, 500, 600, 700, 800)

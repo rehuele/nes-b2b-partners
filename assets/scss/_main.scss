@@ -1,0 +1,196 @@
+// ----------------------------------------------------------------------------
+// Main
+// ----------------------------------------------------------------------------
+
+@import "global.scss";
+
+
+// Layout + Images + Extras
+// ------------------------------------
+
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+[data-view="quality-partners"] {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--primary-color);
+  background-color: var(--white);
+
+  .quality-partners-main {
+    flex: 1 0 auto;
+  }
+
+  .container {
+    width: 100%;
+    @include rem(max-width, 912px);
+    padding: 0 $spacer;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+
+  // Grid Three
+  // ------------------------------------
+
+  .grid-three {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    justify-items: center;
+    gap: 50px 20px;
+
+    @media (min-width: $lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+
+  // Grid Four
+  // ------------------------------------
+
+  .grid-four {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    justify-items: center;
+
+    @media (min-width: $md) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+
+  // Section
+  // ------------------------------------
+
+  .section__content {
+    padding: $spacer * 3 $spacer * 2;
+  }
+
+  .section__title {
+    @include rem(font-size, 26px);
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    @media (min-width: $md) { 
+      @include rem(font-size, 36px);
+    }
+
+    @media (min-width: $lg) { 
+      @include rem(font-size, 30px);
+    }
+  }
+
+  .section__text {
+    @include rem(font-size, 18px);
+    line-height: 1.2;
+    text-align: center;
+
+    @media (min-width: $lg) { 
+      @include rem(font-size, 21px);
+    }
+  }
+
+  .section__button {
+    display: inline-block;
+    @include rem(min-width, 100px);
+    @include rem(min-height, 30px);
+    @include rem(padding, 10px 20px);
+    margin: 0;
+    @include rem(font-size, 12px);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    background-color: var(--secondary-color);
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: var(--burntorange);
+      opacity: 0.8;
+    }
+  }
+
+
+  // Quality Partners Directory
+  // ------------------------------------
+
+  .quality-partners-directory {
+    margin-top: $spacer * 3;
+  }
+  
+  
+  // Quality Partners Posts
+  // ------------------------------------
+
+  .quality-partners-posts {
+    padding: $spacer * 3 0;
+    margin-top: $spacer * 3;
+    background-color: var(--beige);
+  }
+  
+
+  // Quality Partners Direction
+  // ------------------------------------
+
+  .quality-partners-direction {
+    padding: $spacer * 3 0 0;
+  }
+
+
+  // Card Plus / More
+  // ------------------------------------
+
+  .card__plus {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+    &:hover {
+      background-color: var(--burntorange);
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: block;
+      background-color: var(--white);
+      transform: translate(-50%, -50%);
+    }
+
+    &::before {
+      width: 15px;
+      height: 3px;
+    }
+
+    &::after {
+      width: 3px;
+      height: 15px;
+    }
+  }
+}

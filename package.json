@@ -1,0 +1,56 @@
+{
+  "name": "partners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Reh Ernest",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist .cache",
+    "dev": "parcel index.html index-fr.html --open",
+    "stage": "parcel build index.html --no-minify --no-source-maps",
+    "build": "parcel build index.html --no-source-maps"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-structurize": "^2.3.2",
+    "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001261",
+    "parcel": "^1.12.3",
+    "parcel-plugin-asset-copier": "^1.1.0"
+  },
+  "assetsPath": "assets/img",
+  "parcel-plugin-structurize": {
+    "rules": [
+      {
+        "match": "index.html",
+        "folder": "app"
+      },
+      {
+        "match": "*.html",
+        "folder": "app"
+      },
+      {
+        "match": "*.css",
+        "folder": "app/assets/css"
+      },
+      {
+        "match": "*.{eot,ttf,woff,woff2}",
+        "folder": "app/assets/fonts"
+      },
+      {
+        "match": "*.{jpg,jpeg,png,gif,svg,webp}",
+        "folder": "app/assets/img"
+      },
+      {
+        "match": "*.js",
+        "folder": "app/assets/js"
+      }
+    ]
+  }
+}

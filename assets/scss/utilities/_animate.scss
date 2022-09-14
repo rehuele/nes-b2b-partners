@@ -1,0 +1,123 @@
+// ----------------------------------------------------------------------------
+// Animate
+// ----------------------------------------------------------------------------
+
+.animated {
+  opacity: 0;
+  // transform: translateY(20%);
+  // transition: opacity 0.25s ease-in, transform 0.5s ease-in;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
+
+  .is-ie-10 &,
+  .is-ie-11 & {
+    opacity: 1;
+  }
+}
+
+.animated.delay-1s {
+  animation-delay: 1s;
+}
+
+.animated.delay-2s {
+  animation-delay: 2s;
+}
+
+.animated.delay-3s {
+  animation-delay: 3s;
+}
+
+.animated.delay-4s {
+  animation-delay: 4s;
+}
+
+.animated.delay-5s {
+  animation-delay: 5s;
+}
+
+.animated.fast {
+  animation-duration: 800ms;
+}
+
+.animated.faster {
+  animation-duration: 500ms;
+}
+
+.animated.slow {
+  animation-duration: 2s;
+}
+
+.animated.slower {
+  animation-duration: 3s;
+}
+
+@keyframes is-fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.is-fadeIn {
+  animation-name: is-fadeIn;
+}
+
+@keyframes is-fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.is-fadeInUp {
+  animation-name: is-fadeInUp;
+}
+
+.is-fadeInUp {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes is-fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.is-fadeOutDown {
+  animation-name: is-fadeOutDown;
+}
+
+@keyframes is-slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.is-slideInRight {
+  animation-name: is-slideInRight;
+}
+
+.is-slideInRight {
+  opacity: 1;
+  transform: translateX(0);
+}

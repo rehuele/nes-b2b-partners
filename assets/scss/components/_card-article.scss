@@ -1,0 +1,19 @@
+// ----------------------------------------------------------------------------
+// Card Article
+// ----------------------------------------------------------------------------
+
+[data-view="quality-partners"] {
+  .card-article {
+    .card__img {
+      position: relative;
+      display: block;
+      padding-bottom: (280 / 280) * 100%;
+    }
+    
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+// ----------------------------------------------------------------------------
+// Global
+// ----------------------------------------------------------------------------
+
+// Settings
+@import "fonts.scss";
+@import "variables.scss";
+ 
+// Mixin
+// @import "mixin/colors.scss";
+@import "mixin/rem.scss";
+
+// Utilities
+//  @import "utilities/spacing.scss";
+// @import "utilities/animate.scss";
+
+// Base
+@import "base.scss";
+@import "layout.scss";
+
+// Components
+@import "components/hero.scss";
+@import "components/filter.scss";
+@import "components/card.scss";
+@import "components/card-partner.scss";
+@import "components/card-direction.scss";
+@import "components/footer.scss";
+// @import "components/card-video.scss";
+// @import "components/card-article.scss";
+// @import "components/modal.scss";
+
+// Utilities
+// @import "utilities/aos.scss";
+@import "utilities/animate.scss";

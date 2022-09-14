@@ -1,0 +1,166 @@
+// ----------------------------------------------------------------------------
+// Card
+// ----------------------------------------------------------------------------
+
+@use "sass:math";
+
+[data-view="quality-partners"] {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    @include rem(max-width, 280px);
+    border: 1px solid #f0f0f0;
+  }
+
+  .card__img {
+    overflow: hidden;
+    background-color: var(--black);
+  }
+
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $spacer * 2 $spacer + math.div($spacer, 2);
+    text-align: center;
+    background-color: var(--white);
+  }
+
+  .card__title {
+    // margin-bottom: $spacer / 4;
+    margin-bottom: math.div($spacer, 4);
+    @include rem(font-size, 18px);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .card__subtitle {
+    @include rem(font-size, 14px);
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .card__description,
+  .card__description p,
+  .card__address,
+  .card__address p {
+    // margin-top: $spacer / 2;
+    margin-top: math.div($spacer, 2);
+    @include rem(font-size, 15px);
+    line-height: 1.2;
+    font-weight: 400;
+  }
+
+  .card__button {
+    display: inline-block;
+    @include rem(min-width, 100px);
+    @include rem(min-height, 30px);
+    @include rem(padding, 10px 20px);
+    margin: 0;
+    @include rem(font-size, 12px);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    background-color: var(--secondary-color);
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: var(--burntorange);
+      opacity: 0.8;
+    }
+  }
+
+  .grid-list {
+    @media (min-width: $md) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      width: 100%;
+    }
+  }
+
+  .list__title {
+    // margin-top: $spacer / 2;
+    margin-top: math.div($spacer, 2);
+    margin-bottom: 0;
+    @include rem(font-size, 14px);
+    font-weight: 700;
+    line-height: 1.5;
+
+    + ul li {
+      display: inline-block;
+      @include rem(padding-right, 5px);
+      @include rem(font-size, 14px);
+
+      &::after {
+        content: ',';
+        display: inline-block;
+        color: var(--primary-color);
+      }
+
+      &:last-child::after {
+        display: none;
+      }
+    }
+
+    + ul li > a {
+      color: var(--primary-color);
+
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+
+  .icon-daily {
+    display: flex;
+    align-items: center;
+    margin-top: $spacer;
+    margin-left: auto;
+    @include rem(font-size, 14px);
+    
+    &::before {
+      content: '';
+      display: inline-block;
+      @include rem(width, 12px);
+      @include rem(height, 12px);
+      @include rem(padding-right, 20px);
+      background-image: url('../img/icon-mug.svg');
+      background-repeat: no-repeat;
+    }
+  }
+
+
+  // Zoom
+  // ------------------------------------
+
+  .zoom {
+    img {
+      opacity: 1;
+      transition: all 1s ease 0s;
+    }
+
+    :hover img {
+      opacity: 0.85;
+      transform: scale(1.1);
+    }
+  }
+
+
+  // Outline
+  // ------------------------------------
+
+  .outline {
+    transition: all 0.25s ease-out 0s;
+
+    &:hover,
+    &:focus {
+      outline: solid 10px var(--secondary-color);
+    }
+  }
+}

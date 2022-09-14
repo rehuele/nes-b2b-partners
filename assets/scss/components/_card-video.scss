@@ -1,0 +1,75 @@
+
+// ----------------------------------------------------------------------------
+// Card Video
+// ----------------------------------------------------------------------------
+
+[data-view="quality-partners"] {
+  .card-video {
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      .btn-play {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 2px #fff;
+    
+        &::before {
+          opacity: 0.8;
+          transform: scale(1);
+        }
+      }
+    }
+
+    .card__img {
+      position: relative;
+    }
+  }
+
+  .btn-play {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include rem(width, 75px);
+    @include rem(height, 75px);
+    padding: 0;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #fff;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    transition: box-shadow 0.3s;
+    appearance: none;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      bottom: 2px;
+      left: 2px;
+      background-color: #d1a451;
+      border-radius: 50%;
+      transform: scale(0);
+      opacity: 0;
+      transition: all 0.3s;
+    }
+
+    &::after {
+      content: '';
+      position: relative;
+      left: 4px; 
+      width: 0;
+      height: 0;
+      border-top: 18px solid transparent;
+      border-left: 28px solid #fff;
+      border-bottom: 18px solid transparent;
+    }
+  }
+}
